@@ -13,14 +13,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #3E92CC;
+  background: #3e92cc;
   min-height: 100vh;
 }
 
 .browser {
   display: flex;
   flex-direction: column;
-  background: #ECE8EF;
+  background: #ece8ef;
   border-radius: 5px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   min-width: 60%;
@@ -37,7 +37,7 @@ body {
 
 .tab {
   position: relative;
-  background: #1B9AAA;
+  background: #1b9aaa;
   min-width: 120px;
   font-size: 14px;
   border-top-left-radius: 8px;
@@ -50,8 +50,13 @@ body {
 .tab a {
   display: block;
   padding: 12px 25px;
-  color: #ECE8EF;
+  color: #ece8ef;
   text-decoration: none;
+}
+
+.tab a.is-active {
+  background: #006476;
+  color: #eee;
 }
 
 .viewport {
@@ -59,7 +64,7 @@ body {
   align-items: center;
   justify-content: center;
   background: #003049;
-  color: #ECE8EF;
+  color: #ece8ef;
   flex: 1;
   flex-grow: 1;
   border-bottom-left-radius: 5px;
