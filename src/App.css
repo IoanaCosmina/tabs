@@ -65,3 +65,15 @@ body {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+.highlight {
+  display: block;
+  position: absolute;
+  height: 80px;
+  width: 300px;
+  border-radius: 50%;
+  opacity: 0.6;
+  pointer-events: none;
+  background: radial-gradient(rgba(255, 199, 89, 1), rgba(157, 128, 238, 0));
+  transition: 0.3s ease all;
+}
