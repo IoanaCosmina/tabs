@@ -6,13 +6,13 @@ function Header() {
     return (
         <div className="tabs">
             <Tab>
-                <NavLink to="/" exact activeClassName="is-active">Home</NavLink>
+                <NavLink to="/tabs" exact activeClassName="is-active">Home</NavLink>
             </Tab>
             <Tab>
-                <NavLink to="/about" activeClassName="is-active">About</NavLink>
+                <NavLink to="/tabs/about" activeClassName="is-active">About</NavLink>
             </Tab>
             <Tab>
-                <NavLink to="features" activeClassName="is-active">Features</NavLink>
+                <NavLink to="/tabs/features" activeClassName="is-active">Features</NavLink>
             </Tab>
         </div>
     );

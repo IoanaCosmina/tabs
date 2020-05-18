@@ -8,13 +8,13 @@ function Routes() {
     return (
         <div>
             <Switch>
-                <Route path="/about">
+                <Route path="/tabs/about">
                     <About />
                 </Route>
-                <Route path="/features">
+                <Route path="/tabs/features">
                     <Features />
                 </Route>
-                <Route path="/" exact>
+                <Route path="/tabs" exact>
                     <Home />
                 </Route>
             </Switch>
